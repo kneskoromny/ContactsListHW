@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		F7A67CB1262701FD00349F5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A67CB0262701FD00349F5F /* AppDelegate.swift */; };
 		F7A67CB3262701FD00349F5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A67CB2262701FD00349F5F /* SceneDelegate.swift */; };
-		F7A67CB5262701FD00349F5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A67CB4262701FD00349F5F /* ViewController.swift */; };
 		F7A67CB8262701FD00349F5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A67CB6262701FD00349F5F /* Main.storyboard */; };
 		F7A67CBA262701FF00349F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A67CB9262701FF00349F5F /* Assets.xcassets */; };
 		F7A67CBD262701FF00349F5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A67CBB262701FF00349F5F /* LaunchScreen.storyboard */; };
+		F7A67CC72627033900349F5F /* FirstContactListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A67CC62627033900349F5F /* FirstContactListController.swift */; };
+		F7A67CCA26270D9100349F5F /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A67CC926270D9100349F5F /* Contact.swift */; };
+		F7A67CD52627140800349F5F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A67CD42627140800349F5F /* DataManager.swift */; };
+		F7A67CD926273BA200349F5F /* DetailContactInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A67CD826273BA200349F5F /* DetailContactInfoViewController.swift */; };
+		F7A67CE326274C2C00349F5F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A67CE226274C2C00349F5F /* TabBarController.swift */; };
+		F7A67CF0262752B800349F5F /* SecondContactListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A67CEF262752B800349F5F /* SecondContactListController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F7A67CAD262701FD00349F5F /* ContactsListHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsListHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A67CB0262701FD00349F5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7A67CB2262701FD00349F5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F7A67CB4262701FD00349F5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F7A67CB7262701FD00349F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7A67CB9262701FF00349F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7A67CBC262701FF00349F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7A67CBE262701FF00349F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7A67CC62627033900349F5F /* FirstContactListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstContactListController.swift; sourceTree = "<group>"; };
+		F7A67CC926270D9100349F5F /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		F7A67CD42627140800349F5F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		F7A67CD826273BA200349F5F /* DetailContactInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContactInfoViewController.swift; sourceTree = "<group>"; };
+		F7A67CE226274C2C00349F5F /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		F7A67CEF262752B800349F5F /* SecondContactListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondContactListController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +68,12 @@
 			children = (
 				F7A67CB0262701FD00349F5F /* AppDelegate.swift */,
 				F7A67CB2262701FD00349F5F /* SceneDelegate.swift */,
-				F7A67CB4262701FD00349F5F /* ViewController.swift */,
+				F7A67CE226274C2C00349F5F /* TabBarController.swift */,
+				F7A67CC62627033900349F5F /* FirstContactListController.swift */,
+				F7A67CD826273BA200349F5F /* DetailContactInfoViewController.swift */,
+				F7A67CEF262752B800349F5F /* SecondContactListController.swift */,
+				F7A67CC926270D9100349F5F /* Contact.swift */,
+				F7A67CD42627140800349F5F /* DataManager.swift */,
 				F7A67CB6262701FD00349F5F /* Main.storyboard */,
 				F7A67CB9262701FF00349F5F /* Assets.xcassets */,
 				F7A67CBB262701FF00349F5F /* LaunchScreen.storyboard */,
@@ -137,9 +152,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7A67CB5262701FD00349F5F /* ViewController.swift in Sources */,
+				F7A67CCA26270D9100349F5F /* Contact.swift in Sources */,
+				F7A67CE326274C2C00349F5F /* TabBarController.swift in Sources */,
+				F7A67CF0262752B800349F5F /* SecondContactListController.swift in Sources */,
+				F7A67CC72627033900349F5F /* FirstContactListController.swift in Sources */,
 				F7A67CB1262701FD00349F5F /* AppDelegate.swift in Sources */,
 				F7A67CB3262701FD00349F5F /* SceneDelegate.swift in Sources */,
+				F7A67CD52627140800349F5F /* DataManager.swift in Sources */,
+				F7A67CD926273BA200349F5F /* DetailContactInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
