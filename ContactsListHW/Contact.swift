@@ -6,7 +6,7 @@
 //
 
 
-struct Contact {
+struct Contact: Hashable {
     let name: String
     let surname: String
     
@@ -21,7 +21,7 @@ struct Contact {
 
 extension Contact {
     
-    static func getContactsList() -> [Contact] {
+    static func getContactList() -> [Contact] {
         
         var contacts: [Contact] = []
         
@@ -30,10 +30,8 @@ extension Contact {
         let phones = DataManager.shared.phones.shuffled()
         let emails = DataManager.shared.emails.shuffled()
         
-        // находим минимальное количество элементов среди заданных массивов
         let count = min(names.count, surnames.count, phones.count, emails.count)
         
-        // вместо -1 использовать полузакрытые диапазоны
         for iteration in 0..<count {
             let contact = Contact(
                 name: names[iteration],
@@ -47,6 +45,23 @@ extension Contact {
         
         return contacts
         
+    }
+    
+    static func getContact() -> Contact {
+        let count = min(
+            DataManager.shared.names.count,
+            DataManager.shared.surnames.count,
+            DataManager.shared.phones.count,
+            DataManager.shared.emails.count
+        )
+        
+        let contact = Contact(
+            name: DataManager.shared.names[Int.random(in: 0..<count)],
+            surname: DataManager.shared.surnames[Int.random(in: 0..<count)],
+            phone: DataManager.shared.phones[Int.random(in: 0..<count)],
+            email: DataManager.shared.emails[Int.random(in: 0..<count)]
+        )
+        return contact
     }
     
 }
