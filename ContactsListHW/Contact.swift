@@ -5,7 +5,7 @@
 //  Created by Кирилл Нескоромный on 14.04.2021.
 //
 
-
+//
 struct Contact: Hashable {
     let name: String
     let surname: String
